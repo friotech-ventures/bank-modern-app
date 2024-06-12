@@ -1,5 +1,5 @@
 import styles from "../styles";
-import { logo } from "../assets";
+
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
@@ -9,8 +9,8 @@ const Footer = () => (
       <div className="flex flex-1 flex-col justify-start mr-10">
         {/* Logo */}
         <img
-          src={logo}
-          alt="HooBank"
+          src="https://media.discordapp.net/attachments/1147791800279515146/1250401623038230529/Picsart_24-03-23_05-54-34-354.png?ex=666acec2&is=66697d42&hm=c20be27e75e802780c7422a9e5492fefb176ced8d9b3d4c9b1bab74f785858a5&"
+          alt="playunite-logo"
           className="w-[266px] h-[72px] object-contain"
         />
         {/* Info */}
