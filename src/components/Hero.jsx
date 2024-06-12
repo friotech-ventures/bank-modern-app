@@ -12,16 +12,16 @@ const Hero = () => (
       <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
         <img src={discount} alt="Discount" className="w-[32px] h-[32px]" />
         <p className={`${styles.paragraph} ml-2`}>
-          <span className="text-white">20%</span> Discount for{" "}
-          <span className="text-white">1 Month</span> Account
+          <span className="text-white">We are</span> launching{" "}
+          <span className="text-white">soon</span> Account
         </p>
       </div>
 
       {/* Heading */}
       <div className="flex flex-row justify-between items-center w-full">
         <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
-          The Next <br className="sm:block hidden" />{" "}
-          <span className="text-gradient">Generation</span>
+          Discover <br className="sm:block hidden" />{" "}
+          <span className="text-gradient">Your</span>
         </h1>
 
         {/* Get Started */}
@@ -31,7 +31,7 @@ const Hero = () => (
       </div>
 
       <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
-        Payment Method.
+        Next obsession
       </h1>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Our team of experts uses a methodology to identify the credit cards most
