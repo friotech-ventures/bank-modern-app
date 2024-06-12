@@ -60,11 +60,11 @@ const Navbar = () => {
               className={`font-poppins font-normal cursor-pointer text-[16px] text-secondary mb-0`}
             >
               <a
-                href="https://github.com/sanidhyy/bank-modern-app"
+                href="#"
                 target="_blank"
                 rel="noreferrer"
               >
-                Source Code
+                Coming soon
               </a>
             </li>
           </ul>
