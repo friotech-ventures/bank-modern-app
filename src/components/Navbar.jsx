@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       {/* Logo */}
-      <img src={logo} alt="HooBank" className="w-[124px] h-[32px]" />
+      <img src="https://media.discordapp.net/attachments/1147791800279515146/1250401623038230529/Picsart_24-03-23_05-54-34-354.png?ex=666acec2&is=66697d42&hm=c20be27e75e802780c7422a9e5492fefb176ced8d9b3d4c9b1bab74f785858a5&" alt="playunite-logo" className="w-[124px] h-[32px]" />
 
       {/* Navbar (Desktop) */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
