@@ -42,8 +42,8 @@ const Hero = () => (
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
       {/* Background */}
       <img
-        src={robot}
-        alt="Billing"
+        src="https://cdn.discordapp.com/attachments/1147791800279515146/1250409177516474408/Picsart_24-06-12_16-48-57-745.png?ex=666ad5cb&is=6669844b&hm=b3b26a95def474112f4bb2b4b1fda0f6f679709892c013708457e1db2b08772a&"
+        alt="hero"
         className="w-[100%] h-[100%] relative z-[5]"
       />
 
