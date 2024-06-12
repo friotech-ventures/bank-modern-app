@@ -21,7 +21,7 @@ const Hero = () => (
       <div className="flex flex-row justify-between items-center w-full">
         <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
           Discover <br className="sm:block hidden" />{" "}
-          <span className="text-gradient">Your</span>
+          <span className="text-gradient">Your next</span>
         </h1>
 
         {/* Get Started */}
@@ -31,7 +31,7 @@ const Hero = () => (
       </div>
 
       <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
-        Next obsession
+        obsession
       </h1>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Dive into an ever-expanding library of games. Find your next favorite, from hidden gems to blockbuster hits, all in one place
