@@ -35,13 +35,11 @@ const Business = () => {
       {/* Section Info */}
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          You do the business, <br className="sm:block hidden" /> we'll handle
-          the money.
+        Where gamers connect<br className="sm:block hidden" /> and
+          thrive 
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With the right credit card, you can improve your financial life by
-          building credit, earning rewards and saving money. But with hundreds
-          of credit cards on the market.
+          Welcome to PlayUnite, the ultimate platform for gamers to connect, compete, and collaborate. Discover a vibrant community of players from around the globe, engage in thrilling tournaments, and enjoy exclusive content. Whether you're a casual gamer or a competitive enthusiast, PlayUnite offers a unique space to share your passion, make new friends, and elevate your gaming experience. Join us today and be part of the next generation of social gaming!
         </p>
 
         {/* Get Started */}
