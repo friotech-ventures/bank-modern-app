@@ -40,21 +40,21 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Get rewarded for playing tournaments , watching streams and completing quests and many more!",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We take proactive steps make sure your information & our chats are end-to-end encrypted assuring safety for the users",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: trophy,
+    title: "Free Tournaments",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Create tournaments forr free of cost and earn a lot of rewards and the entry for the events are also free! ",
   },
 ];
 
@@ -79,7 +79,7 @@ export const feedback = [
     id: "feedback-3",
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
+    name: "Kelly",
     title: "Founder & Leader",
     img: people03,
   },
@@ -99,7 +99,7 @@ export const stats = [
   {
     id: "stats-3",
     title: "Prizes distributed",
-    value: "5 Lakhs+",
+    value: "5L+",
   },
 ];
 
