@@ -2,7 +2,11 @@ import { features } from "../constants";
 import styles, { layout } from "../styles";
 import Button from "./Button";
 
-<section id="product" className={layout.sectionReverse}>
+
+
+// Feature Card
+const FeatureCard = ({ icon, title, content, index }) => (
+    <section id="product" className={layout.sectionReverse}>
     {/* Left Side */}
     <div className={layout.sectionImgReverse}>
       {/* Background Image */}
@@ -15,9 +19,6 @@ import Button from "./Button";
       <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient" />
     </div>
 
-
-// Feature Card
-const FeatureCard = ({ icon, title, content, index }) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
       index !== features.length - 1 ? "mb-6" : "mb-0"
