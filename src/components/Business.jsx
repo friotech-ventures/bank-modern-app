@@ -2,11 +2,8 @@ import { features } from "../constants";
 import styles, { layout } from "../styles";
 import Button from "./Button";
 
-
-
 // Feature Card
 const FeatureCard = ({ icon, title, content, index }) => (
-    
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
       index !== features.length - 1 ? "mb-6" : "mb-0"
@@ -38,11 +35,13 @@ const Business = () => {
       {/* Section Info */}
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-        Where gamers connect<br className="sm:block hidden" /> and
-          thrive 
+          You do the business, <br className="sm:block hidden" /> we'll handle
+          the money.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Welcome to PlayUnite, the ultimate platform for gamers to connect, compete, and collaborate. Discover a vibrant community of players from around the globe, engage in thrilling tournaments, and enjoy exclusive content. Whether you're a casual gamer or a competitive enthusiast, PlayUnite offers a unique space to share your passion, make new friends, and elevate your gaming experience. Join us today and be part of the next generation of social gaming!
+          With the right credit card, you can improve your financial life by
+          building credit, earning rewards and saving money. But with hundreds
+          of credit cards on the market.
         </p>
 
         {/* Get Started */}
